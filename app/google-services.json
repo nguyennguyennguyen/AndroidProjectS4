@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "344424416933",
+    "firebase_url": "https://univgo-b029a.firebaseio.com",
+    "project_id": "univgo-b029a",
+    "storage_bucket": "univgo-b029a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344424416933:android:f730cf13e02d5a6bbc2f4c",
+        "android_client_info": {
+          "package_name": "com.example.univgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344424416933-i27uc93okicd0ujcoeba0i8o288e3lpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.univgo",
+            "certificate_hash": "7f602d392cb94e2982cc49d4e8bba3c309453376"
+          }
+        },
+        {
+          "client_id": "344424416933-17nkqveu25ai1p5hqqm21omp99acmp8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQJPZE2ag1jbmrGh0iJc8bRlfTN3izoiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344424416933-17nkqveu25ai1p5hqqm21omp99acmp8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

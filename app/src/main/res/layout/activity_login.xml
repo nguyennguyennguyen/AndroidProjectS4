@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login"
+    >
+    <ImageView
+        android:id="@+id/login_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginRight="110dp"
+        android:contentDescription="@string/applogo"
+        app:srcCompat="@drawable/logo"
+        />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/login_password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:hint="@string/identifiant"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/login_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/password"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/register_account_link"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+        android:text="@string/se_connecter"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/register_account_link"
+        android:layout_width="381dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/socialmedia_linearlayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/cr_er_un_compte"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/socialmedia_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/facebook_signin_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/facebookloginicon"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/twitter_signin_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/twitterloginicon"
+            android:src="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/google_signin_button"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/googleloginicon"
+            android:src="@drawable/google" />
+
+    </LinearLayout>
+</RelativeLayout>

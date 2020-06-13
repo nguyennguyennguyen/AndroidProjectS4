@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:background="@drawable/register">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/setup_username"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/setup_full_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="@string/identifiant"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/username"
+        android:drawableStart="@drawable/username"
+        />
+
+    <EditText
+        android:id="@+id/setup_full_name"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/setup_country_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="@string/nom_complet"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/name"
+        android:drawableStart="@drawable/name"/>
+
+    <EditText
+        android:id="@+id/setup_country_name"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/setup_infromation_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/inputs"
+
+        android:ems="10"
+        android:hint="@string/pays"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:autofillHints=""
+        android:drawableLeft="@drawable/country"
+        android:drawableStart="@drawable/country"
+        />
+
+    <Button
+        android:id="@+id/setup_infromation_button"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/button"
+        android:padding="15dp"
+
+        android:text="@string/enregistrer"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp" />
+</RelativeLayout>
