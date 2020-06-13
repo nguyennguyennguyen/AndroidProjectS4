@@ -36,5 +36,14 @@
     <string name="date">Date</string>
     <string name="a_post">A posté</string>
     <string name="nom_prenom">nom prenom</string>
+    <string name="nom_profil">Nom Profil</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="gender">Gender</string>
+    <string name="relation">Relation</string>
+    <string name="trouvez_vos_amis_et_famille">Trouvez vos amis et famille</string>
+    <string name="tapez_ici_le_nom_de_la_personne_que_vous_cherchez">Tapez ici le nom de la personne que vous cherchez</string>
+    <string name="searchbutton">searchbutton</string>
+    <string name="nom_utilisateur">Nom utilisateur</string>
+    <string name="statut">Statut</string>
     <!--    <string name="cr_er_un_compte">Créer un compte</string>-->
 </resources>
